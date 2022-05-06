@@ -1,15 +1,16 @@
 
-import './App.css';
+
 import Layout from './components/Layout/Layout';
 import Products from './components/Shop/Products';
+import Cart from './components/Cart/Cart';
 
 function App() {
   return (
-    <div className="App">
-      <Layout>
-        <Products />
-      </Layout>
-    </div>
+    <Layout>
+      <Cart />
+      <Products />
+    </Layout>
+
   );
 }
 

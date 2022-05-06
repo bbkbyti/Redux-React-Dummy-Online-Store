@@ -1,8 +1,10 @@
 import ProductItem from "./ProductItem";
 
+import classes from './Products.module.css'
+
 const Products = () => {
     return (
-        <section>
+        <section className={classes.products}>
             <h2>Choose your favorite product!</h2>
             <ul>
                 <ProductItem
